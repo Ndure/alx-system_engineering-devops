@@ -1,10 +1,13 @@
-#!/bin/bash
-counter=0
-while [ $counter -lt 10 ]
+
+#!/usr/bin/env bash
+# A script that displays Best School 10 times using while
+
+i=1
+
+while [ $i -le 10 ]
 do
-  echo "Best School"
-  ((counter++))
+    echo "Best School"
+    ((i++))
 done
- 
 
 #\\This script uses the while loop to repeatedly print "Best School" 10 times. The while loop continues to execute as long as the value of the counter variable is less than 10. The counter variable is incremented by 1 each time through the loop using the ((counter++)) command, which eventually causes the loop to exit when the counter reaches 10.\\
